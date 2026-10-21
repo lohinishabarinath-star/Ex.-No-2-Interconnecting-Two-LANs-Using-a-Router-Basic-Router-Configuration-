@@ -1,4 +1,6 @@
-# Date :
+# Date : 21.10.2026
+# Name : LOHINI S
+# Reg no. : 212225240079
 ## Ex.-No-2-Interconnecting-Two-LANs-Using-a-Router-Basic-Router-Configuration
 
 
@@ -17,7 +19,9 @@ ________________________________________
 •	PC0 → Switch0 → Router (FastEthernet0/0)<br>
 •	PC1 → Switch1 → Router (FastEthernet0/1)<br>
 (Insert screenshot of your Packet Tracer setup here)<br>
-________________________________________
+<img width="925" height="715" alt="image" src="https://github.com/user-attachments/assets/f5929ecf-3f06-435d-a3d3-c4bc272b9528" />
+
+_______________________________________
 # IP Addressing Table
 Device	Interface	IP Address	Subnet Mask<br>
 PC0	NIC	192.168.1.10	255.255.255.0<br>
@@ -53,8 +57,15 @@ Router(config-if)# no shutdown<br>
 ________________________________________
 # Output (Screenshots)
 •	Router CLI configuration<br>
+<img width="1417" height="700" alt="image" src="https://github.com/user-attachments/assets/500d56b8-a1ae-4261-a48a-1a86adbef3bf" />
+
 •	IP configurations on PCs<br>
+<img width="1402" height="706" alt="image" src="https://github.com/user-attachments/assets/2c62fe81-d239-4ec3-9d38-77fad19161d1" />
+
+
 •	Successful ping between PC0 and PC1<br>
+<img width="1917" height="993" alt="image" src="https://github.com/user-attachments/assets/51306743-40fd-40c7-96f3-abee8b13af60" />
+
 ________________________________________
 # Result
 Successfully configured a router to connect two LANs. Communication between PC0 and PC1 across different networks was tested and verified.
